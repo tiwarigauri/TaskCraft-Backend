@@ -8,10 +8,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ApiResponse {
-    public ApiResponse(String message, boolean status) {
-        this.message = message;
-        this.status = status;
-    }
+    // public ApiResponse(String message, boolean status) {
+    //     this.message = message;
+    //     this.status = status;
+    // }
 
     private String message;
     private boolean status;
